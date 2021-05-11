@@ -54,11 +54,11 @@ h1{
     background-repeat: no-repeat;
     background-size: auto 100%;
     padding: 8%;
-    font-size: 26px;
+    font-size: 26px !important;
     border-radius: 2%;
-    margin-right: 0%;
-    font-weight: bolder;
-    padding-bottom: 200px;
+    margin-right: 0% !important;
+    font-weight: bolder !important;
+    padding-bottom: 200px !important;
 }
 .ip-vid{
     padding: 2%;
