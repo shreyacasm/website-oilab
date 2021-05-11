@@ -50,14 +50,15 @@ h1{
 }
 .intro-parts{
     background-color: white;
-    background-image: radial-gradient(rgba(238, 228, 245, 0.877),#95d0ebe1 ),url('../images/block-bg.png');
+    background-image: radial-gradient(rgba(255, 255, 255, 0.062),#95d0ebe1 ),url('../images/block-bg.png');
     background-repeat: no-repeat;
     background-size: auto 100%;
     padding: 8%;
-    font-size: 24px;
+    font-size: 26px;
     border-radius: 2%;
     margin-right: 0%;
     font-weight: bolder;
+    padding-bottom: 200px;
 }
 .ip-vid{
     padding: 2%;
