@@ -42,7 +42,7 @@ h1{
 
 /* container css */
 .container-box{
-    background-image: linear-gradient( rgba(255,0,0,0),#97d0e9a6);
+    background-image: linear-gradient(360deg, rgba(255,0,0,0),#97d0e9a6);
     width: 100%;
 }
 .intro-box{
@@ -122,8 +122,27 @@ h1{
     right: 0;
   }
 .process-box{
-    padding: 5%;
-    background-image: linear-gradient(360deg, rgba(255,0,0,0),#97d0e9a6);
+    padding: 5% 0;
+    /* background-image: linear-gradient(360deg, rgba(255,0,0,0),#97d0e9a6); */
+    background-color: white !important;
+}
+.process-img{
+    border-radius: 2%;
+}
+.process-desc{
+    background-color: white;
+    padding-top: 50px;
+}
+.box-tags{
+    background-image: linear-gradient(30deg, rgba(255,0,0,0),rgb(58, 126, 182));
+    padding: 15% 2%;
+    width: 100%;
+    border-radius: 5% 50% 50% 5%;
+    margin: 10% 0;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+    font-size: 30px;
 }
 .parallax {
     /* The image used */
@@ -137,9 +156,6 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.process-img{
-    padding: 0 10%;
 }
 
 @media screen and (max-width: 480px) {
