@@ -16,6 +16,14 @@ h1{
     font-family:cursive;
     font-size: 3rem;
 }
+h2{
+    text-align: center;
+    color: rgb(35, 108, 168);
+    text-shadow: 4px 4px 4px white;
+    font-weight: bolder;
+    font-family:cursive;
+    font-size: 2rem;
+}
 .navigation{
     background-color: #c6e9f8a6 !important;
     color: white !important;
@@ -48,6 +56,10 @@ h1{
     background-image: linear-gradient(360deg, rgba(255,0,0,0),#97d0e9a6);
     width: 100%;
 }
+.radial-bg{
+    background-image:linear-gradient(180deg, rgba(255,0,0,0),#97d0e9a6) !important;
+}
+
 .intro-box{
     padding: 100px;
 }
@@ -160,17 +172,18 @@ h1{
 }
 /* join us block */
 .join-us{
+    margin: 0;
+    margin-top: 5%;
     padding: 3% 10%;
-    border: 1px solid red;
 }
-.join-block{
+.join-img{
     position:absolute;
     top: -50px;
     right: 35%;
 
     left: auto;
     width: 30% !important;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -179,12 +192,88 @@ h1{
     
 }
 .gif-block{
-    width: 100%;
-    background-color: black;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
+    padding-top: 100px ;
+    
+    background:radial-gradient( rgba(255,0,0,0),#97d0e9a6),url(../images/comp-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
 }
-
+.clg-gif{
+    background:radial-gradient( rgba(255,0,0,0),#97d0e9a6),url(../images/college-bg.png) !important; 
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    
+}
+.btn-join{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+.join-list{
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 6% 0%;
+    font-weight: bolder;
+}
+.li-sp:before {
+    content: '💡';
+}
+body {
+  overflow-x: hidden;
+}
+.water-body{
+    background-color: #97d0e9a6;
+  overflow: hidden;
+}
+.ocean { 
+    height: 5%;
+    width:100%;
+    position:relative;
+    bottom:0;
+    left:0;
+    background: #015871;
+    margin-top: 300px;
+  }
+  
+  .wave {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+  }
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1600px;
+    }
+  }
+  
+  @keyframes swell {
+    0%, 100% {
+      transform: translate3d(0,-25px,0);
+    }
+    50% {
+      transform: translate3d(0,5px,0);
+    }
+  }
 @media screen and (max-width: 480px) {
     .nav-brand{
         width: 35%;
