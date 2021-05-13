@@ -43,6 +43,9 @@ h2{
     font-size: 21px;
     font-weight: bold;
 }
+.nav-anc{
+  color:white !important;
+}
 .nav-log{
     color: white !important;
 }
