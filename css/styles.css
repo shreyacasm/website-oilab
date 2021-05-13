@@ -25,7 +25,7 @@ h2{
     font-size: 2rem;
 }
 .navigation{
-    background-color: #c6e9f8a6 !important;
+    background-color: #01657d !important;
     color: white !important;
     height: 10%;
     font-size: 24px;
@@ -42,6 +42,9 @@ h2{
     padding: 20px;
     font-size: 21px;
     font-weight: bold;
+}
+.nav-log{
+    color: white !important;
 }
 .car-div{
     margin-top: 65px;
