@@ -13,9 +13,12 @@
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: white;
-  padding-top: 60px;
+  padding-top: 80px;
 }
-
+.clearfix{
+  float: none;
+  clear: both;
+}
 .row {
   width: 100% !important;
   margin: 0% !important;
@@ -279,7 +282,7 @@ body {
 }
 
 .water-body {
-  background-color: #97d0e9a6;
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0), #97d0e9a6);
   overflow: hidden;
 }
 
@@ -308,6 +311,9 @@ body {
   animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
   opacity: 1;
 }
+.choose-us{
+  background-image: linear-gradient(360deg, rgba(255, 0, 0, 0), #97d0e9a6);
+}
 
 @keyframes wave {
   0% {
@@ -332,6 +338,7 @@ body {
 }
 
 @media only screen and (max-width:1024px) {
+  
   .nav-brand {
     width: 12%;
     padding-right: 0%;
@@ -381,8 +388,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-    border: 1px solid red;
     margin-bottom: 30%;
+    text-align: left !important;
   }
   
 }
@@ -404,14 +411,6 @@ body {
     display: none;
   }
 
-  .car-rep {
-    display: block;
-  }
-
-  .car-reimg {
-    width: 100% !important;
-    height: 200px !important;
-  }
 
   h1 {
     font-size: 25px;
@@ -434,6 +433,7 @@ body {
     text-shadow: 2px 2px grey;
     font-weight: bolder;
     font-size: 20px;
+    
   }
 
   .process-desc {
