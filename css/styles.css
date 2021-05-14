@@ -194,7 +194,7 @@ h2 {
   padding: 15% 0%;
   width: 100%;
   border-radius: 5% 50% 50% 5%;
-  margin: 10% 0;
+  margin: 8% 0;
   color: white;
   text-shadow: 2px 2px black;
   font-weight: bolder;
@@ -218,7 +218,6 @@ h2 {
 /* join us block */
 .join-us {
   margin: 0;
-  margin-top: 5%;
   padding: 3% 10%;
 }
 
@@ -410,7 +409,9 @@ body {
   .car-div {
     display: none;
   }
-
+  .join-us{
+    margin-top: 15% !important;
+  }
 
   h1 {
     font-size: 25px;
