@@ -13,7 +13,7 @@
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: white;
-  padding-top: 60px;
+  padding-top: 60px !important;
 }
 .clearfix{
   float: none;
