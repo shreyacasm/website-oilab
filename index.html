@@ -516,23 +516,6 @@
   </footer>
   <!-- Footer -->
   </div>
-  
-  
-  <script>
-    $('.carousel').carousel({
-      interval: 2000
-    })
-    var myVar;
-    function myFunction() {
-      myVar = setTimeout(showPage, 2000);
-    }
-
-    function showPage() {
-      document.getElementById("body-main").style.backgroundColor = "white";
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("myDiv").style.display = "block";
-    }
-  </script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -552,7 +535,21 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
   </script>
+  <script>
+    $('.carousel').carousel({
+      interval: 1500
+    })
+    var myVar;
+    function myFunction() {
+      myVar = setTimeout(showPage, 2000);
+    }
 
+    function showPage() {
+      document.getElementById("body-main").style.backgroundColor = "white";
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
 </body>
 
 </html>
